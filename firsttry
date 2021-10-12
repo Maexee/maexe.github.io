@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+
+
+<head>
+    <meta charset="utf-8" />
+    <title>Hello World</title>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        
+
+
+    <style>
+
+.sans { font-family: 'Open Sans',sans-serif;}
+        
+        .container {
+            display: flex;
+        }
+
+        .item {
+            flex-grow: 1;
+            height: 100px;
+            border: dashed 1px;
+        }
+
+        .item+.item {
+            margin-left: 10px;
+        }
+
+        .redColor .yellowColor {
+            color: orange;
+        }
+
+        .yellowColor {
+            color: yellow;
+        }
+
+        .redColor {
+            color: red;
+        }
+
+        .boldFont {
+            font-weight: bold;
+        }
+
+        .important {
+            color: red;
+        }
+
+        h1 {
+            background-color: #ffe600;
+            border-color: aqua;
+            color: aqua;
+        }
+
+        h2 {
+            border-style: solid;
+            border-width: 2px;
+            border-color: blue;
+        }
+
+        td {
+            border-style: solid;
+            border-width: 1px;
+            border-color: black;
+        }
+
+        /* all 'h1' tags */
+        .person {
+            color: orange;
+            border-bottom: 5px;
+        }
+
+        /* class person */
+        #special {
+            font-size: 5px;
+        }
+
+        /* id copyright */
+    </style>
+</head>
+
+
+<body>
+    <div class="sans">Other foooont baby</div>
+    <div class="person">Uno</div>
+    <div class="person">Due</div>
+    <div class="person">Tre</div>
+    <div id="special">Special ID for the win</div>
+    <div class="redColor secondClass">
+        <div class="yellowColor">Hello</div>
+        <div class="boldFont">World</div>
+    </div>
+    <div class="yellowColor">WWF</div>
+    <h1 class="person">This is me</h1>
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+</body>
+
+<body>
+
+    <h1 class="important">This is me</h1>
+
+
+    <p>I am <em>Max</em></p>
+
+    <h1> I love doing</h1>
+    <h2> basketball </h2>
+    <h2> tennis </h2>
+    <h2> piano </h2>
+    <img src="image.jfif" />
+
+    <a href="https://www.google.com">Link</a>
+    <img src="https://placeimg.com/640/480/any" />
+
+    <ul>
+        <li> very dope</li>
+        <li> very nice</li>
+        <li> very super</li>
+        <li> very cool</li>
+    </ul>
+
+    <table>
+        <tr>
+            <th>Animal</th>
+            <th>Name</th>
+            <th>Habitat</th>
+        </tr>
+        <tr>
+            <td>Lion</td>
+            <td>Parma</td>
+            <td>Namibia</td>
+        </tr>
+        <tr>
+            <td>Dog</td>
+            <td>Fred</td>
+            <td>Turkey</td>
+        </tr>
+        <tr>
+            <td>Cat</td>
+            <td>Xuscha</td>
+            <td>Dorf</td>
+        </tr>
+    </table>
+
+    <!-- a comment inside your document -->
+
+</body>
+
+
+
+</html>
