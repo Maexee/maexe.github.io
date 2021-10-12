@@ -1,3 +1,28 @@
 ---
 ---
-Hello2
+
+<!doctype html>
+<html>
+
+<head>
+    <script>
+        window.alert("Hello World");
+        document.addEventListener('DOMContentLoaded', e => {
+            document.body.append("Its kind of complicated");
+            let el = document.querySelector("#world");
+            el.style.color = "green";
+            let ei = document.querySelector("#title");
+            ei.style.color = '#' + Math.floor(Math.random() * 16777215).toString(16);
+        });
+
+
+
+    </script>
+</head>
+
+<body>
+    <h1 id="title">Hi, im using javascript :)</h1>
+    <div id="world">Hello World</div>
+</body>
+
+</html>
